@@ -1,9 +1,6 @@
-
 console.log("Hello JavaScript!");
 
-let employeeName = "John";
-let salary = 30000;
+alert("Welcome to JavaScript!");
 
-console.log("Employee:", employeeName);
-console.log("Salary:", salary);
-console.log("Annual Salary:", salary * 12);
+document.body.innerHTML +=
+    "<h2>JavaScript is working!</h2>";

@@ -54,3 +54,5 @@ validateDocument(7155361, "", "");
 
 */
 
+
+let a = new array()
