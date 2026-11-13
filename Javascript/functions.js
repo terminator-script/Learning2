@@ -55,4 +55,22 @@ validateDocument(7155361, "", "");
 */
 
 
-let a = new array()
+
+// function docid(){
+//     console.log("doc id is 712345")
+// }
+// console.log(docid);
+// docid();
+
+let documents ={
+    "documentId": "1234" ,
+    "documentName": "referral"
+};
+let ID = documents.documentId;
+let name = documents.documentName;
+let docid = ()=>{
+    console.log("Document ID is", ID )
+    console.log("Document name is ", name)
+};
+
+docid();
